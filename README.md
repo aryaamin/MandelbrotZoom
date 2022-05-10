@@ -27,10 +27,17 @@ Right Click -> Zoom Out on center<br />
 Scroll Up -> Increase Maxiter<br />
 Scroll Down -> Decrease Maxiter<br />
 
+![alt text](https://github.com/aryaamin/MandelbrotZoom/blob/master/image1.png)
+![alt text](https://github.com/aryaamin/MandelbrotZoom/blob/master/image2.png)
+![alt text](https://github.com/aryaamin/MandelbrotZoom/blob/master/image3.png)
+![alt text](https://github.com/aryaamin/MandelbrotZoom/blob/master/image4.png)
+![alt text](https://github.com/aryaamin/MandelbrotZoom/blob/master/image5.png)
+![alt text](https://github.com/aryaamin/MandelbrotZoom/blob/master/plot.png)
 
-Since in the above code the for loop stops at maxiter and<br />
-therefore its linearly dependent on maxiter so as maxiter increase<br />
+
+Since in the above code the for loop stops at maxiter and
+therefore its linearly dependent on maxiter so as maxiter increase
 the time also linearly increase.<br />
-Whereas, the zoom only changes the values of variables and thus <br />
-its done in constant time, therefore as zoom is increase the time<br />
+Whereas, the zoom only changes the values of variables and thus
+its done in constant time, therefore as zoom is increase the time
 to run the code does not change it remains consant<br />
