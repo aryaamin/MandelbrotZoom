@@ -1,39 +1,36 @@
 # MandelbrotZoom
 Creating a MandelbrotZoom using SFML library.
 
-To compile: g++ mandelbrot.cpp -lsfml-graphics -lsfml-window -lsfml-system
+To compile: g++ mandelbrot.cpp -lsfml-graphics -lsfml-window -lsfml-system<br />
 To run: ./a.out
 
-Coloring pattern code
-Original - 0
-Black&White - 1
-LSM - 2
-Rainbow - 3
-Red&Gold - 4
-*/
+Coloring pattern code<br />
+Original - 0<br />
+Black&White - 1<br />
+LSM - 2<br />
+Rainbow - 3<br />
+Red&Gold - 4<br />
 
-/*
-Keys
-Left arrow -> shift left
-Right arrow -> shift right
-Up arrow -> shift upward
-Down arrow ->shift downward
-Q -> colorcode = 0
-W -> colorcode = 1
-E -> colorcode = 2
-R -> colorcode = 3
-T -> colorcode = 4
-P -> Previous plot
-Left Click -> Zoom In on clicked point
-Right Click -> Zoom Out on center
-Scroll Up -> Increase Maxiter
-Scroll Down -> Decrease Maxiter
-*/
+Keys<br />
+Left arrow -> shift left<br />
+Right arrow -> shift right<br />
+Up arrow -> shift upward<br />
+Down arrow ->shift downward<br />
+Q -> colorcode = 0<br />
+W -> colorcode = 1<br />
+E -> colorcode = 2<br />
+R -> colorcode = 3<br />
+T -> colorcode = 4<br />
+P -> Previous plot<br />
+Left Click -> Zoom In on clicked point<br />
+Right Click -> Zoom Out on center<br />
+Scroll Up -> Increase Maxiter<br />
+Scroll Down -> Decrease Maxiter<br />
 
-/*
-Since in the above code the for loop stops at maxiter and
-therefore its linearly dependent on maxiter so as maxiter increase
-the time also linearly increase.
-Whereas, the zoom only changes the values of variables and thus 
-its done in constant time, therefore as zoom is increase the time
-to run the code does not change it remains consant
+
+Since in the above code the for loop stops at maxiter and<br />
+therefore its linearly dependent on maxiter so as maxiter increase<br />
+the time also linearly increase.<br />
+Whereas, the zoom only changes the values of variables and thus <br />
+its done in constant time, therefore as zoom is increase the time<br />
+to run the code does not change it remains consant<br />
